@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Job Application</title>
+</head>
+<body>
+  <header>
+    <h1>Job Application</h1>
+    <hr>
+  </header>
+<form action="server.php" method="POST">
+  Name:<input type:"text" name="name" placeholder="Name"><br><br>
+  Upload your Resume:<input type="file" name="resume"><br><br>
+  E-mail id:<input type="Email" name="mail"><br><br>
+  Phone No:<input type="tel" name="no"><br><br>
+  Experiencee:<select name="exp">
+    <option value="exp">0</option>
+    <option value="exp">1 to 3</option>
+    <option value="exp">4 to 5</option>
+    <option value="exp">more  than 5</option>
+  </select>
+  <br><br>
+  Languages known:<input type="text" name="lang" placeholder="(With comma seperated)">
+  <br><br>
+  Programming Languages Known:<input type="text" name="plang" placeholder="(With comma seperated)">
+  <br><br>
+  Address:<input type="text" name"add">
+  <br><br>
+  Pincode:<input type="number" name="pin">
+  <br>
+  <center>
+    <input type="submit" value="apply" name="submit">
+    </center>
+  </body>
+</html>
